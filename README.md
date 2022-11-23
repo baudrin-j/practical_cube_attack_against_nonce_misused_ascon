@@ -26,7 +26,7 @@ The two remaining files are provided to compare our method with two other works:
 
 This folder corresponds to the first phase of our attack: the recovery of most of the bits of vectors $a$ and $e$.
 
-It contains the C++ files used to derive the results which underpin the assumptions introduced in our paper. A Makefile is also given. The subfolder `results` is voluntarily empty: it will contain the result files after computation.
+It contains the C++ files used to derive the results which underpin the assumptions introduced in our paper. A Makefile is also given. A subfolder named `results` must be created: it will contain the result files after computation.
 
 - `phase_1_verification.cpp` is the file containing the main function.
 - `cube_sum.cpp` provides a parallelized cube-sum function using OpenMP.
@@ -39,7 +39,7 @@ It contains the C++ files used to derive the results which underpin the assumpti
 
 This folder corresponds to the second phase of our attack: the recovery of the remaining bits of $a$, when some of the bits of $a$ and all the bits of $e$ have already been recovered.
 
-It contains C++ files, as well a SageMath script. The subfolder `results` is voluntarily empty: as above, it will contain the result files after computation. A Makefile is provided. By using `make phase_2` a file `phase_2.out` is compiled. Launching this program will launch the main function located in`coefficient_recovery/coefficient_recovery.cpp`.
+It contains C++ files, as well a SageMath script. A subfolder named `results` must be created: as above, it will contain the result files after computation. A Makefile is provided. By using `make phase_2` a file `phase_2.out` is compiled. Launching this program will launch the main function located in`coefficient_recovery/coefficient_recovery.cpp`.
 
 The main loop of this function is repeated until there is no more bit left to recover or if the maximal number of tries is reached. It follows the high level steps listed below.
 
@@ -59,7 +59,7 @@ The main loop of this function is repeated until there is no more bit left to re
 
 This folder corresponds to the last phase of our attack: the recovery of all bits of $b$ and $c$, when all bits of $a$ and $e$ have already been recovered.
 
-It contains C++ files as well as a SageMath script. The subfolder `results` is voluntarily empty: it will contain the result files after computations.
+It contains C++ files as well as a SageMath script. Again, the subfolder `results` needs to be created: it will contain the result files after computations.
 
 It should be used as follows.
 
