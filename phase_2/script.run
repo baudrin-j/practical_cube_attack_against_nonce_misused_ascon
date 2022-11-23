@@ -1,0 +1,4 @@
+source ~/.zshrc
+conda activate sage
+python /Users/usr/Documents/phase_2/system_solving.py
+conda deactivate
