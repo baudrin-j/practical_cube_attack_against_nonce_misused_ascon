@@ -1,7 +1,7 @@
 # Practical Cube Attack against Nonce-Misused Ascon - Supplementary Material
 
-This repository contains supplementary material provided with [our paper](https://tosc.iacr.org/index.php/ToSC/article/view/xxxx) published in
-Volume 2022, Issue 3 of [*IACR Transactions on Symmetric Cryptology*](https://tosc.iacr.org/).
+This repository contains supplementary material provided with [our paper](https://doi.org/10.46586/tosc.v2022.i4.120-144) published in
+Volume 2022, Issue 4 of [*IACR Transactions on Symmetric Cryptology*](https://tosc.iacr.org/).
 
 It is organized as follows.
 
